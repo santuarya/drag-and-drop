@@ -1,0 +1,16 @@
+<aura:component >
+	<!--attributes-->
+    <aura:attribute name="columnList" type="List" />
+    
+    <!--component markup-->
+    <div class="slds-text-heading_large slds-p-left_medium">Component B</div>
+    
+    <div class="slds-grid slds-wrap drop-zone" aura:id="dropZone" ondragover="{!c.dragoverHandler}" ondragleave="{!c.dragLeaveHandler}" ondrop="{!c.dropHandler}">
+        <!--iterate the dropped box here-->
+        <aura:iteration items="{!v.columnList}" var="col">
+            <div class="{!col.classList}">
+                <div class="slds-text-heading_small">{!col.innerHTML}</div>
+            </div>
+        </aura:iteration>
+    </div>
+</aura:component>

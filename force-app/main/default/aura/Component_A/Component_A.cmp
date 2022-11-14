@@ -1,0 +1,20 @@
+<aura:component >
+	<!--attribute-->
+    
+    <!--component markup-->
+    <div class="slds-text-heading_large slds-p-left_medium">Component A</div>
+    
+    <div class="slds-grid">
+        <div class="slds-col slds-size_3-of-12 one" draggable="true" ondragstart="{!c.dragStart}">
+            <div class="slds-text-heading_small">This is first box</div>
+        </div>
+        
+        <div class="slds-col slds-size_3-of-12 two" draggable="true" ondragstart="{!c.dragStart}">
+            <div class="slds-text-heading_small">This is second box</div>
+        </div>
+        
+        <div class="slds-col slds-size_3-of-12 three" draggable="true" ondragstart="{!c.dragStart}">
+            <div class="slds-text-heading_small">This is third box</div>
+        </div>
+    </div>
+</aura:component>

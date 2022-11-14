@@ -1,0 +1,30 @@
+.THIS .one, .THIS .two, .THIS .three{
+    max-height: 90px;
+    margin: 20px;
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.THIS .one{
+    background-color: red;
+}
+.THIS .two{
+    background-color: blue;
+}
+.THIS .three{
+    background-color: green;
+}
+
+.THIS.drop-zone{
+    box-sizing: border-box;
+    min-height: 200px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: transparent;
+    margin: 20px;
+}
+
+.THIS.active{
+    border-color: #027FB3;
+}

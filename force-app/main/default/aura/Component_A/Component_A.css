@@ -1,0 +1,20 @@
+.THIS .one, .THIS .two, .THIS .three{
+    max-height: 90px;
+    margin: 20px;
+    padding: 5px;
+    color: #fff;
+    cursor: -webkit-grab;
+}
+.THIS .one:active, .THIS .two:active, .THIS .three:active{
+    cursor: -webkit-grabbing;
+}
+
+.THIS .one{
+    background-color: red;
+}
+.THIS .two{
+    background-color: blue;
+}
+.THIS .three{
+    background-color: green;
+}
